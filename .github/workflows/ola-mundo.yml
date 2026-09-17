@@ -10,3 +10,5 @@ jobs:
         run: echo "2º etapa commit"
       - name: Mostrar data e hora
         run: date
+      - name: Quem fez commit
+        run: echo "Commit feito por ${{ github.actor }}"
