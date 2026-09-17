@@ -1,12 +1,12 @@
 name: Ola Mundo
-on: push
+on: workflow_dispatch
 jobs:
   minha-tarefa:
     runs-on: ubuntu-latest
     steps:
       - name: Dizer ola
         run: echo "Commit felipe galati"
-      - name: Dizer ola
+      - name: Dizer ola 2
         run: echo "2º etapa commit"
       - name: Mostrar data e hora
         run: date
