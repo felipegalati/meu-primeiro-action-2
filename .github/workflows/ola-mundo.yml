@@ -8,3 +8,5 @@ jobs:
         run: echo "Commit felipe galati"
       - name: Dizer ola
         run: echo "2º etapa commit"
+      - name: Mostrar data e hora
+        run: date
